@@ -1,13 +1,13 @@
 import { Container } from '~/components/Container';
 import Heading from '~/components/Heading';
 
-import * as s from '~/styles/pages/Home';
+import * as s from './styles';
 
-export default function Home() {
+export default function Search() {
   return (
     <s.Container>
       <Container>
-        <Heading>home/</Heading>
+        <Heading>search/</Heading>
       </Container>
     </s.Container>
   );

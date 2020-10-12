@@ -6,13 +6,13 @@ import Info from '~/components/Info';
 
 import * as s from '~/styles/pages/Home';
 
-interface IProducts {
+interface IProduct {
   id: string;
   title: string;
 }
 
 interface HomeProps {
-  recommendedProducts: IProducts[];
+  recommendedProducts: IProduct[];
 }
 
 export default function Home({ recommendedProducts }: HomeProps) {

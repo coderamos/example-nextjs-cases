@@ -2,7 +2,16 @@ import { useRouter } from 'next/router';
 import { Container } from '~/components/Container';
 import Heading from '~/components/Heading';
 
-export default function Product() {
+interface IProduct {
+  id: string;
+  title: string;
+}
+
+interface CategoryProps {
+  products: IProduct[];
+}
+
+export default function Category() {
   const router = useRouter();
 
   return (

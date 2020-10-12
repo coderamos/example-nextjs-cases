@@ -27,8 +27,8 @@ yarn dev
 _Run the app in the development mode by opening [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits._
 
 ```jsx
-// run json-server on http://localhost:3333/
-npx json-server server.json -p 3333 -w
+// run json-server on http://localhost:3333/ with 2 second response time
+npx json-server server.json -p 3333 -w -d 2000
 ```
 
 ```jsx

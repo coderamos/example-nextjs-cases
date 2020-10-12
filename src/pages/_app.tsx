@@ -6,6 +6,10 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyles from '~/styles/global';
 import theme from '~/styles/theme';
 
+type WebVitalsProps = {
+  value: number;
+};
+
 function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
@@ -23,6 +27,10 @@ function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
     </ThemeProvider>
   );
+}
+
+export function reportWebVitals({ value }: WebVitalsProps) {
+  console.log(value);
 }
 
 export default App;

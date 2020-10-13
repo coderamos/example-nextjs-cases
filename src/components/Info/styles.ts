@@ -24,18 +24,13 @@ export const Title = styled.span`
 `;
 
 export const InfoItem = styled.div`
-  ${({ theme }) => css`
-    display: flex;
-  `}
+  display: flex;
 `;
 
 export const Description = styled.span`
-  ${({ theme }) => css``}
   width: 50%;
 `;
 
 export const Value = styled.strong`
-  ${({ theme }) => css`
-    text-align: left;
-  `}
+  text-align: left;
 `;

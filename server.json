@@ -1,16 +1,20 @@
 {
   "categories": [
     { "id": "shirts", "title": "Shirts" },
-    { "id": "pants", "title": "Pants" }
+    { "id": "pants", "title": "Pants" },
+    { "id": "shoes", "title": "Shoes" }
   ],
   "products": [
-    { "id": 1, "title": "Shirt Yellow Code", "price": 79.9, "category_id": "shirts", "slug": "shirt-yellow-code"},
+    { "id": 1, "title": "Shirt Front Code", "price": 79.9, "category_id": "shirts", "slug": "shirt-yellow-code"},
     { "id": 2, "title": "Shirt UX Rainbow", "price": 69.9, "category_id": "shirts", "slug": "shirt-ux-rainbow"},
     { "id": 3, "title": "Pant Dark Developer", "price": 129.9, "category_id": "pants", "slug": "pant-dark-developer"},
-    { "id": 4, "title": "Pant Gray Developer", "price": 109.9, "category_id": "pants", "slug": "pant-white-developer"}
+    { "id": 4, "title": "Pant PO Unicorn", "price": 109.9, "category_id": "pants", "slug": "pant-white-developer"},
+    { "id": 5, "title": "Shoe DevOps AWS", "price": 399.9, "category_id": "shoes", "slug": "shoe-devops-aws"},
+    { "id": 6, "title": "Shoe DevOps Google", "price": 799.9, "category_id": "shoes", "slug": "shoe-devops-google"}
   ],
   "recommended": [
     { "id": 1, "title": "Shirt UX Rainbow", "price": 69.9, "category_id": "shirts", "slug": "shirt-ux-rainbow"},
-    { "id": 4, "title": "Pant Blue Developer", "price": 109.9, "category_id": "pants", "slug": "pant-white-developer"}
+    { "id": 4, "title": "Pant PO Unicorn", "price": 109.9, "category_id": "pants", "slug": "pant-white-developer"},
+    { "id": 6, "title": "Shoe DevOps Google", "price": 799.9, "category_id": "shoes", "slug": "shoe-devops-google"}
   ]
 }

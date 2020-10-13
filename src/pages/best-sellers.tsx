@@ -1,11 +1,11 @@
 import { GetStaticProps } from 'next';
+import { useRouter } from 'next/router';
 
 import { Container } from '~/components/Container';
 import Info from '~/components/Info';
 import Heading from '~/components/Heading';
 
 import * as s from '~/styles/pages/BestSellers';
-import { useRouter } from 'next/router';
 
 interface IProduct {
   id: string;
@@ -43,7 +43,7 @@ export default function BestSellers({ products }: BestSellersProps) {
   );
 }
 
-export const getStaticProps: GetStaticProps<BestSellersProps> = async context => {
+export const getStaticProps: GetStaticProps<BestSellersProps> = async () => {
   const response = await fetch('http://localhost:3333/products');
   const products = await response.json();
 

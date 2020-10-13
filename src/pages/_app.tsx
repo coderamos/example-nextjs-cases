@@ -29,8 +29,4 @@ function App({ Component, pageProps }: AppProps) {
   );
 }
 
-export function reportWebVitals({ value }: WebVitalsProps) {
-  console.log(value);
-}
-
 export default App;
